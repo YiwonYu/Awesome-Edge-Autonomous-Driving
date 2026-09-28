@@ -1,7 +1,14 @@
 {
-  "checked_at": "2026-09-28T05:53:15.443695+00:00",
+  "checked_at": "2026-09-28T06:45:44.739804+00:00",
   "method": "HTTP GET with redirects; bounded timeout; no content-equivalence guarantee",
   "results": [
+    {
+      "url": "https://air.egr.uh.edu/research/high-performance-control-of-agile-robots/",
+      "http_status": "200",
+      "final_url": "https://air.egr.uh.edu/research/high-performance-control-of-agile-robots/",
+      "result": "reachable",
+      "curl_exit": 0
+    },
     {
       "url": "https://arxiv.org/abs/2107.08325",
       "http_status": "200",
@@ -20,6 +27,13 @@
       "url": "https://arxiv.org/abs/2209.12048",
       "http_status": "200",
       "final_url": "https://arxiv.org/abs/2209.12048",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.02267",
+      "http_status": "200",
+      "final_url": "https://arxiv.org/abs/2303.02267",
       "result": "reachable",
       "curl_exit": 0
     },
@@ -66,6 +80,13 @@
       "curl_exit": 0
     },
     {
+      "url": "https://arxiv.org/abs/2410.07447",
+      "http_status": "200",
+      "final_url": "https://arxiv.org/abs/2410.07447",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://arxiv.org/abs/2411.17508",
       "http_status": "200",
       "final_url": "https://arxiv.org/abs/2411.17508",
@@ -94,6 +115,20 @@
       "curl_exit": 0
     },
     {
+      "url": "https://arxiv.org/abs/2603.12960",
+      "http_status": "200",
+      "final_url": "https://arxiv.org/abs/2603.12960",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26855",
+      "http_status": "200",
+      "final_url": "https://arxiv.org/abs/2607.26855",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://caipeide.github.io/autorace-dirl/",
       "http_status": "200",
       "final_url": "https://caipeide.site/autorace-dirl/",
@@ -115,9 +150,23 @@
       "curl_exit": 0
     },
     {
+      "url": "https://doi.org/10.1007/978-3-030-95892-3_14",
+      "http_status": "200",
+      "final_url": "https://link.springer.com/chapter/10.1007/978-3-030-95892-3_14?error=cookies_not_supported&code=e3ad7178-8fea-43e6-9ba2-1e995e2a56ee",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://doi.org/10.1109/RTCSA.2018.00011",
       "http_status": "202",
       "final_url": "https://ieeexplore.ieee.org/document/8607229/",
+      "result": "review",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1109/TITS.2020.2980855",
+      "http_status": "202",
+      "final_url": "https://ieeexplore.ieee.org/document/9094331/",
       "result": "review",
       "curl_exit": 0
     },
@@ -126,6 +175,13 @@
       "http_status": "403",
       "final_url": "https://dl.acm.org/doi/10.1145/3762652",
       "result": "inconclusive",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.15783472",
+      "http_status": "200",
+      "final_url": "https://zenodo.org/records/15783473",
+      "result": "reachable",
       "curl_exit": 0
     },
     {
@@ -178,6 +234,13 @@
       "curl_exit": 0
     },
     {
+      "url": "https://github.com/CSL-KU/TinyLidarNet",
+      "http_status": "200",
+      "final_url": "https://github.com/CSL-KU/TinyLidarNet",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://github.com/DailyL/Sim2Real_autonomous_vehicle",
       "http_status": "200",
       "final_url": "https://github.com/DailyL/Sim2Real_autonomous_vehicle",
@@ -214,10 +277,24 @@
     },
     {
       "url": "https://github.com/NVIDIA-AI-IOT/jetracer",
-      "http_status": "000",
+      "http_status": "200",
       "final_url": "https://github.com/NVIDIA-AI-IOT/jetracer",
-      "result": "inconclusive",
-      "curl_exit": 28
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://github.com/Neobotics-Foundation-Inc/",
+      "http_status": "200",
+      "final_url": "https://github.com/Neobotics-Foundation-Inc/",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://github.com/PocketRacers/PocketRacerRepo",
+      "http_status": "200",
+      "final_url": "https://github.com/PocketRacers/PocketRacerRepo",
+      "result": "reachable",
+      "curl_exit": 0
     },
     {
       "url": "https://github.com/Tinker-Twins/AutoDRIVE",
@@ -235,22 +312,29 @@
     },
     {
       "url": "https://github.com/dctian/DeepPiCar",
-      "http_status": "000",
+      "http_status": "200",
       "final_url": "https://github.com/dctian/DeepPiCar",
-      "result": "inconclusive",
-      "curl_exit": 28
+      "result": "reachable",
+      "curl_exit": 0
     },
     {
       "url": "https://github.com/f1tenth/f1tenth_gym",
-      "http_status": "000",
+      "http_status": "200",
       "final_url": "https://github.com/f1tenth/f1tenth_gym",
-      "result": "inconclusive",
-      "curl_exit": 28
+      "result": "reachable",
+      "curl_exit": 0
     },
     {
       "url": "https://github.com/mbechtel2/DeepPicar-v2",
       "http_status": "200",
       "final_url": "https://github.com/mbechtel2/DeepPicar-v2",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://github.com/raphajaner/arpo_racing",
+      "http_status": "200",
+      "final_url": "https://github.com/raphajaner/arpo_racing",
       "result": "reachable",
       "curl_exit": 0
     },
@@ -262,11 +346,25 @@
       "curl_exit": 0
     },
     {
+      "url": "https://ieeexplore.ieee.org/document/10982032/",
+      "http_status": "202",
+      "final_url": "https://ieeexplore.ieee.org/document/10982032/",
+      "result": "review",
+      "curl_exit": 0
+    },
+    {
       "url": "https://ittc.ku.edu/~heechul/papers/DeepPicarMicro-rtcsa2022-camera.pdf",
-      "http_status": "000",
+      "http_status": "200",
       "final_url": "https://ittc.ku.edu/~heechul/papers/DeepPicarMicro-rtcsa2022-camera.pdf",
-      "result": "inconclusive",
+      "result": "reachable",
       "curl_exit": 28
+    },
+    {
+      "url": "https://ittc.ku.edu/~heechul/papers/tiny-iros2024-camera.pdf",
+      "http_status": "200",
+      "final_url": "https://ittc.ku.edu/~heechul/papers/tiny-iros2024-camera.pdf",
+      "result": "reachable",
+      "curl_exit": 0
     },
     {
       "url": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2025.pdf",
@@ -293,6 +391,20 @@
       "url": "https://proceedings.mlr.press/v123/o-kelly20a.html",
       "http_status": "200",
       "final_url": "https://proceedings.mlr.press/v123/o-kelly20a.html",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://pure.uva.nl/ws/files/59613018/MCAS_paper_wiggers_v4.pdf",
+      "http_status": "200",
+      "final_url": "https://pure.uva.nl/ws/files/59613018/MCAS_paper_wiggers_v4.pdf",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://researchportal.tuni.fi/en/publications/an-efficient-and-scalable-simulation-model-for-autonomous-vehicle/",
+      "http_status": "200",
+      "final_url": "https://researchportal.tuni.fi/en/publications/an-efficient-and-scalable-simulation-model-for-autonomous-vehicle/",
       "result": "reachable",
       "curl_exit": 0
     },
@@ -332,6 +444,13 @@
       "curl_exit": 0
     },
     {
+      "url": "https://www.intelligentroboticslab.nl/robots/duckiebot/",
+      "http_status": "200",
+      "final_url": "https://www.intelligentroboticslab.nl/robots/duckiebot/",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://www.mdpi.com/1424-8220/23/5/2575",
       "http_status": "403",
       "final_url": "https://www.mdpi.com/1424-8220/23/5/2575",
@@ -360,10 +479,31 @@
       "curl_exit": 0
     },
     {
+      "url": "https://www.nature.com/articles/s41467-025-62327-3",
+      "http_status": "200",
+      "final_url": "https://www.nature.com/articles/s41467-025-62327-3?error=cookies_not_supported&code=9c63a98f-5b39-4cde-927f-b50d2cbab0a3",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-026-49690-x",
+      "http_status": "200",
+      "final_url": "https://www.nature.com/articles/s41598-026-49690-x?error=cookies_not_supported&code=03095e75-3799-414a-88ac-a43a569c22c0",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://www.nature.com/articles/s44172-024-00292-3",
       "http_status": "200",
-      "final_url": "https://www.nature.com/articles/s44172-024-00292-3?error=cookies_not_supported&code=7333af45-4892-47c9-8e49-9c860696886f",
+      "final_url": "https://www.nature.com/articles/s44172-024-00292-3?error=cookies_not_supported&code=fcdf4f50-6491-464d-9f8d-4d6fa0e4a136",
       "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405896325000448",
+      "http_status": "403",
+      "final_url": "https://www.sciencedirect.com/science/article/pii/S2405896325000448",
+      "result": "inconclusive",
       "curl_exit": 0
     }
   ]

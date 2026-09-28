@@ -14,3 +14,7 @@ Source: [IEEE title list, January 2025](https://open.ieee.org/wp-content/uploads
 For the remaining journals, this release does **not** assert a verified year/category-specific JCR quartile. This includes Journal of Field Robotics, Communications Engineering, Sensors, Robotics, Frontiers in Neurorobotics, IJECE and JCCT. They were screened for topic relevance and primary-source evidence; their inclusion should not be read as a Q1/Q2 certification. The publisher name alone is insufficient. Scopus CiteScore/SJR Q1 is not interchangeable with JCR Q1.
 
 The list therefore prioritizes reputable venues and directly relevant work while preserving evidence gaps. Add a new rank only with the metric system, metric year, category and a verifiable source.
+
+## Additional venues in the expanded release
+
+Nature Communications, Scientific Reports and IEEE Transactions on Intelligent Transportation Systems were added based on publication identity and topic relevance. No new year/category-specific quartile is asserted without matching evidence. TinyLidarNet is an IROS 2024 paper. NeoRacer and alpha-RPO remain explicitly labeled preprints.

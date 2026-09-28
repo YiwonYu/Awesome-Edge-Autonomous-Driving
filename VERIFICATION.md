@@ -21,7 +21,7 @@ Snapshot: 2026-09-28. Sources were discovered through publisher pages, arXiv, au
 - `wcharczuk/go-chart` is a plotting library and is excluded from Go-CHART robotics code.
 - `MichaelBosello/self-driving-car` describes separate cars across a fleet (two Jetson Nano cars and one Pi car), not three computers installed together on one vehicle. It is omitted from the short pre-2020 section to keep that section focused.
 - The Raspberry Pi 5 / Hailo ROS 2 community project discovered during search says closed-loop testing is pending; it is not included as proven autonomous driving.
-- Snow-robust RL (arXiv 2512.12987), safety-assured vision racing (arXiv 2303.02267), and some Duckietown RL papers remain expansion candidates pending complete venue/code/hardware mapping. They are not counted as verified catalog records.
+- Snow-robust RL (arXiv 2512.12987), and other Duckietown RL papers remain expansion candidates pending complete venue/code/hardware mapping. They are not counted as verified catalog records.
 - Surveys, perception-only papers and generic projects are not counted as independent real-car demonstrations.
 
 ## Per-entry evidence notes
@@ -210,3 +210,69 @@ Primary record: https://github.com/dctian/DeepPiCar
 ## Link audit outcome
 
 The draft DeepPicar link returned 404 and was replaced by the author-linked `mbechtel2/DeepPicar-v2` repository. Other publisher access challenges/timeouts are preserved in link-checks.json rather than misreported as dead links. GitHub API metadata is stored in [repository-checks.json](repository-checks.json); successful API reads confirm repository identity, not reproducibility.
+
+## Expansion audit — 2026-09-28
+
+Added 10 papers after publisher, author-manuscript and institutional checks. Stable IDs are retained; gaps correspond to removed entries. Publication/volume year determines sorting, with draft and online-first dates noted. Latest-first chronological index spans all sections; each detailed table is also sorted newest-first. Newly included Nature-family and T-ITS journals are not automatically assigned a quartile.
+
+Searches also surfaced robotics manipulation (Jetson-PI), future/embargoed theses and a deadline-aware demo without sufficient primary-source confirmation; these were not added.
+
+### E42
+
+**Efficient Real-World Autonomous Racing via Attenuated Residual Policy Optimization** — Manuscript identifies onboard compute and author code. Training progressively removes the base controller, leaving a standalone deployed neural policy. Reported latency includes preprocessing and ROS 2 publishing; not compared as a universal benchmark.
+
+Primary record: https://arxiv.org/abs/2603.12960
+
+### E41
+
+**NeoRacer: An Open, Standardized 1:12 Scale Autonomous Race Car for Benchmarking and Education** — Author manuscript links an organization containing the resources, not one paper-specific repository. No peer-reviewed venue asserted. Platform demonstrations are not a comprehensive control-algorithm benchmark.
+
+Primary record: https://arxiv.org/abs/2607.26855
+
+### E33
+
+**Pocket Racer: An accessible autonomous racing educational platform** — Published 29 April 2026. Publisher hardware and data-availability sections identify the board and code. Dataset is available upon request, not assumed freely downloadable. Quartile not independently verified.
+
+Primary record: https://www.nature.com/articles/s41598-026-49690-x
+
+### E36
+
+**Enhancing Safety in Autonomous Racing With Constrained Reinforcement Learning** — Publisher abstract confirms zero-shot physical deployment. Included as a scaled-car study; no Pi/Jetson model or resource-efficiency claim is inferred.
+
+Primary record: https://ieeexplore.ieee.org/document/10982032/
+
+### E34
+
+**Route-centric ant-inspired memories enable panoramic route-following in a car-like robot** — Published 24 September 2025. Methods identify Antcar onboard Pi 4; code availability links Zenodo. Low computational power figures must not be interpreted as whole-vehicle electrical power. Quartile not independently verified.
+
+Primary record: https://www.nature.com/articles/s41467-025-62327-3
+
+### E40
+
+**Development and Control of an Autonomous RC Racing Car** — Publisher assigns volume year 2024 (MECC 2024), although DOI includes 2025. Onboard lateral control is not fully independent autonomy because the velocity command comes from a host over ROS.
+
+Primary record: https://www.sciencedirect.com/science/article/pii/S2405896325000448
+
+### E35
+
+**TinyLidarNet: 2D LiDAR-based End-to-End Deep Learning Model for F1TENTH Autonomous Racing** — Author repository confirms IROS 2024 despite later indexing dates. Physical racing is distinguished from MCU inference timing. Author manuscript: https://ittc.ku.edu/~heechul/papers/tiny-iros2024-camera.pdf
+
+Primary record: https://arxiv.org/abs/2410.07447
+
+### E38
+
+**Towards Safety Assured End-to-End Vision-Based Control for Autonomous Racing** — Manuscript section 5.2 identifies TX2 onboard. Venue confirmed by author lab: https://air.egr.uh.edu/research/high-performance-control-of-agile-robots/ . Do not label it ICRA solely because adjacent author publications appeared there.
+
+Primary record: https://arxiv.org/abs/2303.02267
+
+### E39
+
+**Learning to drive fast on a DuckieTown highway** — Use 2022 proceedings year, not draft upload date. Author lab confirms April 2022: https://www.intelligentroboticslab.nl/robots/duckiebot/ ; manuscript: https://pure.uva.nl/ws/files/59613018/MCAS_paper_wiggers_v4.pdf
+
+Primary record: https://doi.org/10.1007/978-3-030-95892-3_14
+
+### E37
+
+**An Efficient and Scalable Simulation Model for Autonomous Vehicles With Economical Hardware** — University publication record explicitly describes a physical car despite the title. Online-first 2020, issue March 2021; counted once. Primary institutional record: https://researchportal.tuni.fi/en/publications/an-efficient-and-scalable-simulation-model-for-autonomous-vehicle/
+
+Primary record: https://doi.org/10.1109/TITS.2020.2980855
