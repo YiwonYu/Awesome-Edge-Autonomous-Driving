@@ -10,7 +10,7 @@ Snapshot: 2026-09-28. Sources were discovered through publisher pages, arXiv, au
 4. Merge preprint/final versions and conference presentations of the same article. Distinct papers sharing a platform remain separate.
 5. Do not invent code links. “Resource” may be a project page, ecosystem or archived artifact; the per-entry notes explain this.
 6. HTTP checks measure reachability, not scholarly truth. Publisher 403/429 and transport errors are inconclusive, not broken-link findings. A 200 response can still be a login/challenge page. Primary contents were also inspected during research; no experiments were reproduced.
-7. This is a curated first release; no PRISMA-style systematic-review or exhaustive-coverage claim. Quartile-unverified sources remain visible when directly relevant, especially the two supplied papers.
+7. This is a curated first release; no PRISMA-style systematic-review or exhaustive-coverage claim. Quartile-unverified sources remain visible when directly relevant.
 
 ## Corrections, duplicate handling and excluded candidates
 
@@ -103,18 +103,6 @@ Primary record: https://www.mdpi.com/2218-6581/12/3/77
 **Miniature Autonomy as Means to Find New Approaches in Reliable Autonomous Driving AI Method Design** — Road-vehicle part included; aerial-robot examples outside scope. Coral acceleration does not imply all control runs on TPU.
 
 Primary record: https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2022.846355/full
-
-### E14
-
-**Hardware-aware comparative study of lightweight convolutional neural networks for Raspberry Pi-based autonomous driving** — Hyung In Kim and Youngmin Park. Supplied PDF read in full-text extraction; PyTorch/OpenCV onboard, training offboard. Quartile not verified.
-
-Primary record: https://ijece.iaescore.com/index.php/IJECE/article/view/41720
-
-### E15
-
-**Development of Raspberry Pi Autonomous Car using OpenCV and NVIDIA CNN Model** — Youngmin Park; supplied Korean PDF. Colab T4 is training hardware, not onboard compute. Korean title: 라즈베리파이와 Open-CV, nVidia CNN 모델을 적용한 라즈베리파이 자율주행자동차 개발. Quartile not verified.
-
-Primary record: https://doi.org/10.17703/JCCT.2025.11.2.367
 
 ### E16
 

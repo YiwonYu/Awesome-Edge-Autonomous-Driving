@@ -4,7 +4,7 @@ A curated research list for autonomous cars with limited onboard compute: **Rasp
 
 **Coverage:** 2020–2026, searched through **2026-09-28**; selected older foundations are separate. This is a broad curated bibliography, not a claim that every relevant publication has been found. No future 2026 publications are inferred.
 
-**선정 기준:** 주요 로보틱스 학회와 검증 가능한 Q1/Q2 학술지를 우선 탐색했습니다. 실제 소형 차량 주행, 시뮬레이션, 외부 연산 의존, 인식 전용 실험을 구분합니다. 사용자가 제공한 논문 2편은 별도로 포함했습니다. 학회에는 Journal Impact Factor를 부여하지 않으며, 학술지 사분위는 지표·연도에 따라 달라집니다.
+**Selection:** Prioritize major robotics conferences and journals with verifiable Q1/Q2 evidence. Distinguish real-vehicle driving, simulation, offboard computation and perception-only experiments. Conferences are not assigned a Journal Impact Factor; journal quartiles depend on the metric and year.
 
 - [Venue quality and ranking evidence](VENUES.md)
 - [Sources, verification and exclusions](VERIFICATION.md)
@@ -14,7 +14,7 @@ A curated research list for autonomous cars with limited onboard compute: **Rasp
 
 ## Reading guide
 
-Start with **DIRL (RA-L)** and **Nigel (TMECH)** for physical embedded cars; **DeepPicarMicro** for MCU inference; **TimelyNet** for embedded timing; the two supplied papers for Raspberry Pi CPU comparisons. The model-optimization RA-L paper is a simulation reference. ForzaETH uses onboard x86 and is an adjacent platform, not a Jetson result.
+Start with **DIRL (RA-L)** and **Nigel (TMECH)** for physical embedded cars; **DeepPicarMicro** for MCU inference; **TimelyNet** for embedded timing. The model-optimization RA-L paper is a simulation reference. ForzaETH uses onboard x86 and is an adjacent platform, not a Jetson result.
 
 Training hardware and inference hardware are different. “Real” means the authors report physical vehicle experiments, not that this list has reproduced them. “Not identified” means a public implementation was not verified, not that none exists. A shared platform repository is not necessarily the implementation of every associated paper. Device uncertainty is explicit.
 
@@ -22,7 +22,6 @@ Training hardware and inference hardware are different. “Real” means the aut
 
 - [Priority papers](#priority-papers)
 - [Specialist and additional papers](#specialist-and-additional-papers)
-- [User-supplied papers](#user-supplied-papers)
 - [Perception and supporting systems](#perception-and-supporting-systems)
 - [Simulation and offboard-control references](#simulation-and-offboard-control-references)
 - [Open-source projects](#open-source-projects)
@@ -51,13 +50,6 @@ Training hardware and inference hardware are different. “Real” means the aut
 | 2023 | [Neural Network Models for Driving Control of Indoor Autonomous Vehicles in Mobile Edge Computing](https://www.mdpi.com/1424-8220/23/5/2575) ([E11](VERIFICATION.md#e11)) | Raspberry Pi + LiDAR; exact board not verified | Neural driving-command classification | Indoor vehicle control | Sensors 23(5):2575 | Not identified | Real vehicle |
 | 2023 | [AutoDRIVE: A Comprehensive, Flexible and Integrated Digital Twin Ecosystem for Autonomous Driving Research & Education](https://www.mdpi.com/2218-6581/12/3/77) ([E12](VERIFICATION.md#e12)) | Jetson-based miniature vehicle; generation-dependent hardware | Digital twins, perception and control tooling | Autonomy research platform | Robotics 12(3):77 | [Resource](https://github.com/Tinker-Twins/AutoDRIVE) | Real + simulation |
 | 2022 | [Miniature Autonomy as Means to Find New Approaches in Reliable Autonomous Driving AI Method Design](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2022.846355/full) ([E13](VERIFICATION.md#e13)) | Raspberry Pi Compute Module 4 + Coral Edge TPU | Detection and path tracking; pure pursuit / TEB | 1:87 miniature truck autonomy | Frontiers in Neurorobotics 16:846355 | Not identified | Real + simulation |
-
-## User-supplied papers
-
-| Year | Paper / Project | Device | Model / Method | Task | Venue | Code / GitHub | Real / Simulation |
-|---|---|---|---|---|---|---|---|
-| 2026 | [Hardware-aware comparative study of lightweight convolutional neural networks for Raspberry Pi-based autonomous driving](https://ijece.iaescore.com/index.php/IJECE/article/view/41720) ([E14](VERIFICATION.md#e14)) | Raspberry Pi 4 Model B, 4GB, CPU only | NVIDIA CNN, MobileNet, ShuffleNet, EfficientNet, GhostNet and other lightweight CNNs | Closed-loop steering and speed prediction | IJECE 16(3):1493–1507; DOI 10.11591/ijece.v16i3.pp1493-1507 | Not identified | Real vehicle |
-| 2025 | [Development of Raspberry Pi Autonomous Car using OpenCV and NVIDIA CNN Model](https://doi.org/10.17703/JCCT.2025.11.2.367) ([E15](VERIFICATION.md#e15)) | Raspberry Pi 4; differential DC-motor drive | OpenCV + NVIDIA/DAVE-2-style CNN, PyTorch | Visual RC-car driving | JCCT 11(2):367–378 | Not identified | Real vehicle |
 
 ## Perception and supporting systems
 
@@ -103,4 +95,4 @@ Training hardware and inference hardware are different. “Real” means the aut
 
 ## Reuse
 
-Original curation is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Papers, code and data retain their own licenses. This repository does not redistribute the supplied PDFs.
+Original curation is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Papers, code and data retain their own licenses. This repository does not redistribute paper PDFs.

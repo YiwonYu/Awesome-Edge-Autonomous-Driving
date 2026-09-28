@@ -129,13 +129,6 @@
       "curl_exit": 0
     },
     {
-      "url": "https://doi.org/10.17703/JCCT.2025.11.2.367",
-      "http_status": "302",
-      "final_url": "http://koreascience.or.kr/journal/view.jsp?kj=GJMGCK&py=2025&vnc=v11n2&sp=367",
-      "result": "inconclusive",
-      "curl_exit": 28
-    },
-    {
       "url": "https://doi.org/10.5281/zenodo.16251024",
       "http_status": "200",
       "final_url": "https://zenodo.org/records/16251024",
@@ -265,13 +258,6 @@
       "url": "https://gitlab.ethz.ch/ics/crs",
       "http_status": "200",
       "final_url": "https://gitlab.ethz.ch/ics/crs",
-      "result": "reachable",
-      "curl_exit": 0
-    },
-    {
-      "url": "https://ijece.iaescore.com/index.php/IJECE/article/view/41720",
-      "http_status": "200",
-      "final_url": "https://ijece.iaescore.com/index.php/IJECE/article/view/41720",
       "result": "reachable",
       "curl_exit": 0
     },
