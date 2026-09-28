@@ -21,7 +21,7 @@ Snapshot: 2026-09-28. Sources were discovered through publisher pages, arXiv, au
 - `wcharczuk/go-chart` is a plotting library and is excluded from Go-CHART robotics code.
 - `MichaelBosello/self-driving-car` describes separate cars across a fleet (two Jetson Nano cars and one Pi car), not three computers installed together on one vehicle. It is omitted from the short pre-2020 section to keep that section focused.
 - The Raspberry Pi 5 / Hailo ROS 2 community project discovered during search says closed-loop testing is pending; it is not included as proven autonomous driving.
-- Snow-robust RL (arXiv 2512.12987), and other Duckietown RL papers remain expansion candidates pending complete venue/code/hardware mapping. They are not counted as verified catalog records.
+- Other Duckietown RL papers remain expansion candidates pending complete venue/code/hardware mapping. The snow-robust RL paper was subsequently reviewed and added as E46 with its preprint and experimental limitations explicit.
 - Surveys, perception-only papers and generic projects are not counted as independent real-car demonstrations.
 
 ## Per-entry evidence notes
@@ -276,3 +276,79 @@ Primary record: https://doi.org/10.1007/978-3-030-95892-3_14
 **An Efficient and Scalable Simulation Model for Autonomous Vehicles With Economical Hardware** — University publication record explicitly describes a physical car despite the title. Online-first 2020, issue March 2021; counted once. Primary institutional record: https://researchportal.tuni.fi/en/publications/an-efficient-and-scalable-simulation-model-for-autonomous-vehicle/
 
 Primary record: https://doi.org/10.1109/TITS.2020.2980855
+
+## Source-focused expansion — 2026-09-28
+
+Added 12 nonduplicate records (E43–E54) using CVF, IEEE and arXiv records plus author-linked code. See [SEARCH_LOG.md](SEARCH_LOG.md) for query families and access limitations. Google Scholar was attempted but its direct search page was inaccessible; no claim of completed Scholar coverage or verified Scholar citation counts is made. CVF-hosted workshop papers remain labeled workshops. CVF-hosted ACCV is identified as ACCV, not CVPR/ICCV. Simulation-only efficient models remain outside physical edge-driving evidence.
+
+### E43
+
+**Latent Imagination Facilitates Zero-Shot Transfer in Autonomous Racing** — IEEE publication identity and arXiv v3 hardware setup confirm the venue and onboard TX2. Preprint 2021 / proceedings 2022, counted once. Authors include Axel Brunnbauer and Luigi Berducci; do not copy misattributed author lists from secondary platform indexes.
+
+Primary record: https://arxiv.org/abs/2103.04909
+
+### E44
+
+**Bypassing the Simulation-to-Reality Gap: Online Reinforcement Learning Using a Supervisor** — arXiv v2 hardware description identifies the board; author proceedings PDF confirms ICAR 2023: https://f1tenth.github.io/publications/Simulation-to-Reality_Gap.pdf . Preprint 2022 and Xplore indexing 2024 do not change proceedings year. Onboard control does not establish that every training step is computed onboard.
+
+Primary record: https://arxiv.org/abs/2209.11082
+
+### E45
+
+**AROLA: A Modular Layered Architecture for Scaled Autonomous Racing** — Section III-C identifies Jetson. Paper reports RoboRacer IV25 deployment. Linked code is the minimal example cited in the paper, not a claim that the entire architecture and Race Monitor are released. Hardware variant remains unknown.
+
+Primary record: https://arxiv.org/abs/2602.02730
+
+### E46
+
+**Tackling Snow-Induced Challenges: Safe Autonomous Lane-Keeping with Robust Reinforcement Learning** — Section V identifies onboard hardware and real-platform fine-tuning. Snow scenarios are principally simulation evidence; do not infer a certified winter-road system or zero-shot transfer. No author code repository was identified.
+
+Primary record: https://arxiv.org/abs/2512.12987
+
+### E47
+
+**EdgeVTP: Exploration of Latency-efficient Trajectory Prediction for Edge-based Embedded Vision Applications** — CVF paper and author repository agree on edge evaluation. Highway surveillance prediction is an adjacent supporting task, not ego-vehicle steering or physical autonomous driving. Repository H100 timing table must not be read as Jetson timing.
+
+Primary record: https://openaccess.thecvf.com/content/CVPR2026W/EVW/html/Kim_EdgeVTP_Exploration_of_Latency-efficient_Trajectory_Prediction_for_Edge-based_Embedded_Vision_CVPRW_2026_paper.html
+
+### E48
+
+**Towards Accurate and Efficient 3D Object Detection for Autonomous Driving: A Mixture of Experts Computing System on Edge** — CVF PDF experiment section specifies AGX Orin and first-page footnote supplies code. IEEE indexing date is 2026, but conference year is 2025. Do not repeat the manuscript wording about a greater-than-100% latency reduction; reported speedups are not equivalent to such reductions. Potentially related EMOS TPAMI paper is held out pending overlap review.
+
+Primary record: https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Towards_Accurate_and_Efficient_3D_Object_Detection_for_Autonomous_Driving_ICCV_2025_paper.html
+
+### E49
+
+**HARD: Hardware-Aware Lightweight Real-Time Semantic Segmentation Model Deployable from Edge to GPU** — CVF PDF sections 4.1 and 4.4 specify embedded boards. MCU variant and resolution differ from GPU variants; do not combine accuracy from one setting with FPS from another. No closed-loop vehicle demonstrated.
+
+Primary record: https://openaccess.thecvf.com/content/ACCV2024/html/Kwon_HARD__Hardware-Aware_lightweight_Real-time_semantic_segmentation_model_Deployable_from_ACCV_2024_paper.html
+
+### E50
+
+**ES3Net: Accurate and Efficient Edge-Based Self-Supervised Stereo Matching Network** — CVF abstract identifies TX2 and repository confirms authorship. Relevant as a perception component; the paper also targets drones and is not a closed-loop road-driving demonstration. Workshop status is explicit.
+
+Primary record: https://openaccess.thecvf.com/content/CVPR2023W/EVW/html/Fang_ES3Net_Accurate_and_Efficient_Edge-Based_Self-Supervised_Stereo_Matching_Network_CVPRW_2023_paper.html
+
+### E51
+
+**ProAI: An Efficient Embedded AI Hardware for Automotive Applications — A Benchmark Study** — Primary CVF paper: https://openaccess.thecvf.com/content/ICCV2021W/ERCVAD/papers/Mantowsky_ProAI_An_Efficient_Embedded_AI_Hardware_for_Automotive_Applications_-_ICCVW_2021_paper.pdf . ProAI is automotive compute, not a miniature car. Board-level inference/power comparison does not demonstrate complete autonomous control.
+
+Primary record: https://arxiv.org/abs/2108.05170
+
+### E52
+
+**VLDrive: Vision-Augmented Lightweight MLLMs for Efficient Language-grounded Autonomous Driving** — Included only as an efficiency-oriented algorithmic comparison. CVF abstract links author code and reports simulator evaluation. Lightweight relative to a 7B model does not imply feasibility on Pi or a small Jetson.
+
+Primary record: https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_VLDrive_Vision-Augmented_Lightweight_MLLMs_for_Efficient_Language-grounded_Autonomous_Driving_ICCV_2025_paper.html
+
+### E53
+
+**VAD: Vectorized Scene Representation for Efficient Autonomous Driving** — CVF record confirms title, venue and code. Efficiency baseline only: open-loop planning metrics and relative speedup are not evidence of physical embedded closed-loop driving.
+
+Primary record: https://openaccess.thecvf.com/content/ICCV2023/html/Jiang_VAD_Vectorized_Scene_Representation_for_Efficient_Autonomous_Driving_ICCV_2023_paper.html
+
+### E54
+
+**A Comparative Study of Scaled Autonomous Vehicle Platforms for Research and Education** — IEEE abstract and proceedings metadata verified. This is a platform comparison, not a new end-to-end driving model or an independent experiment for every reviewed platform. MHTC is not treated as ICRA/IROS-equivalent by association with IEEE.
+
+Primary record: https://ieeexplore.ieee.org/document/11086476/

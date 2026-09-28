@@ -18,3 +18,7 @@ The list therefore prioritizes reputable venues and directly relevant work while
 ## Additional venues in the expanded release
 
 Nature Communications, Scientific Reports and IEEE Transactions on Intelligent Transportation Systems were added based on publication identity and topic relevance. No new year/category-specific quartile is asserted without matching evidence. TinyLidarNet is an IROS 2024 paper. NeoRacer and alpha-RPO remain explicitly labeled preprints.
+
+## CVF and IEEE expansion
+
+CVF records are classified by the actual venue: ICCV main conference, CVPR/ICCV Workshops, or ACCV. IEEE is a publisher, not a uniform venue-quality tier. ICRA 2022 and ICAR 2023 are distinct venues. arXiv-only records remain preprints. No additional JCR quartile or conference Impact Factor is inferred from these sources.

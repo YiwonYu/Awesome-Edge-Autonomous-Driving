@@ -1,11 +1,18 @@
 {
-  "checked_at": "2026-09-28T06:45:44.739804+00:00",
+  "checked_at": "2026-09-28T07:00:26.569911+00:00",
   "method": "HTTP GET with redirects; bounded timeout; no content-equivalence guarantee",
   "results": [
     {
       "url": "https://air.egr.uh.edu/research/high-performance-control-of-agile-robots/",
       "http_status": "200",
       "final_url": "https://air.egr.uh.edu/research/high-performance-control-of-agile-robots/",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2103.04909",
+      "http_status": "200",
+      "final_url": "https://arxiv.org/abs/2103.04909",
       "result": "reachable",
       "curl_exit": 0
     },
@@ -17,9 +24,23 @@
       "curl_exit": 0
     },
     {
+      "url": "https://arxiv.org/abs/2108.05170",
+      "http_status": "200",
+      "final_url": "https://arxiv.org/abs/2108.05170",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://arxiv.org/abs/2202.07008",
       "http_status": "200",
       "final_url": "https://arxiv.org/abs/2202.07008",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2209.11082",
+      "http_status": "200",
+      "final_url": "https://arxiv.org/abs/2209.11082",
       "result": "reachable",
       "curl_exit": 0
     },
@@ -108,9 +129,23 @@
       "curl_exit": 0
     },
     {
+      "url": "https://arxiv.org/abs/2512.12987",
+      "http_status": "200",
+      "final_url": "https://arxiv.org/abs/2512.12987",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://arxiv.org/abs/2601.22919",
       "http_status": "200",
       "final_url": "https://arxiv.org/abs/2601.22919",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.02730",
+      "http_status": "200",
+      "final_url": "https://arxiv.org/abs/2602.02730",
       "result": "reachable",
       "curl_exit": 0
     },
@@ -152,7 +187,7 @@
     {
       "url": "https://doi.org/10.1007/978-3-030-95892-3_14",
       "http_status": "200",
-      "final_url": "https://link.springer.com/chapter/10.1007/978-3-030-95892-3_14?error=cookies_not_supported&code=e3ad7178-8fea-43e6-9ba2-1e995e2a56ee",
+      "final_url": "https://link.springer.com/chapter/10.1007/978-3-030-95892-3_14?error=cookies_not_supported&code=73479a62-083b-4e8d-9e76-a0df38874d0f",
       "result": "reachable",
       "curl_exit": 0
     },
@@ -199,6 +234,13 @@
       "curl_exit": 0
     },
     {
+      "url": "https://f1tenth.github.io/publications/Simulation-to-Reality_Gap.pdf",
+      "http_status": "200",
+      "final_url": "https://f1tenth.github.io/publications/Simulation-to-Reality_Gap.pdf",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://github.com/AIROTAU/PointPillarsHailoInnoviz",
       "http_status": "200",
       "final_url": "https://github.com/AIROTAU/PointPillarsHailoInnoviz",
@@ -209,6 +251,13 @@
       "url": "https://github.com/BDEvan5/TrajectoryAidedLearning",
       "http_status": "200",
       "final_url": "https://github.com/BDEvan5/TrajectoryAidedLearning",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://github.com/CPS-TUWien/racing_dreamer",
+      "http_status": "200",
+      "final_url": "https://github.com/CPS-TUWien/racing_dreamer",
       "result": "reachable",
       "curl_exit": 0
     },
@@ -255,6 +304,20 @@
       "curl_exit": 0
     },
     {
+      "url": "https://github.com/GIU-F1Tenth/minimal_sofware_example",
+      "http_status": "200",
+      "final_url": "https://github.com/GIU-F1Tenth/minimal_sofware_example",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://github.com/IShengFang/ES3Net",
+      "http_status": "200",
+      "final_url": "https://github.com/IShengFang/ES3Net",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://github.com/JdeRobot/BehaviorMetrics",
       "http_status": "200",
       "final_url": "https://github.com/JdeRobot/BehaviorMetrics",
@@ -276,6 +339,13 @@
       "curl_exit": 0
     },
     {
+      "url": "https://github.com/LinshenLiu622/EMC2",
+      "http_status": "200",
+      "final_url": "https://github.com/LinshenLiu622/EMC2",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://github.com/NVIDIA-AI-IOT/jetracer",
       "http_status": "200",
       "final_url": "https://github.com/NVIDIA-AI-IOT/jetracer",
@@ -293,6 +363,20 @@
       "url": "https://github.com/PocketRacers/PocketRacerRepo",
       "http_status": "200",
       "final_url": "https://github.com/PocketRacers/PocketRacerRepo",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://github.com/ReaFly/VLDrive",
+      "http_status": "200",
+      "final_url": "https://github.com/ReaFly/VLDrive",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://github.com/SeungjinStevenKim/EdgeVTP",
+      "http_status": "200",
+      "final_url": "https://github.com/SeungjinStevenKim/EdgeVTP",
       "result": "reachable",
       "curl_exit": 0
     },
@@ -325,6 +409,13 @@
       "curl_exit": 0
     },
     {
+      "url": "https://github.com/hustvl/VAD",
+      "http_status": "200",
+      "final_url": "https://github.com/hustvl/VAD",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
       "url": "https://github.com/mbechtel2/DeepPicar-v2",
       "http_status": "200",
       "final_url": "https://github.com/mbechtel2/DeepPicar-v2",
@@ -340,15 +431,22 @@
     },
     {
       "url": "https://gitlab.ethz.ch/ics/crs",
-      "http_status": "200",
+      "http_status": "500",
       "final_url": "https://gitlab.ethz.ch/ics/crs",
-      "result": "reachable",
+      "result": "review",
       "curl_exit": 0
     },
     {
       "url": "https://ieeexplore.ieee.org/document/10982032/",
       "http_status": "202",
       "final_url": "https://ieeexplore.ieee.org/document/10982032/",
+      "result": "review",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/11086476/",
+      "http_status": "202",
+      "final_url": "https://ieeexplore.ieee.org/document/11086476/",
       "result": "review",
       "curl_exit": 0
     },
@@ -364,12 +462,61 @@
       "http_status": "200",
       "final_url": "https://ittc.ku.edu/~heechul/papers/tiny-iros2024-camera.pdf",
       "result": "reachable",
-      "curl_exit": 0
+      "curl_exit": 28
     },
     {
       "url": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2025.pdf",
       "http_status": "200",
       "final_url": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2025.pdf",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/ACCV2024/html/Kwon_HARD__Hardware-Aware_lightweight_Real-time_semantic_segmentation_model_Deployable_from_ACCV_2024_paper.html",
+      "http_status": "200",
+      "final_url": "https://openaccess.thecvf.com/content/ACCV2024/html/Kwon_HARD__Hardware-Aware_lightweight_Real-time_semantic_segmentation_model_Deployable_from_ACCV_2024_paper.html",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2023W/EVW/html/Fang_ES3Net_Accurate_and_Efficient_Edge-Based_Self-Supervised_Stereo_Matching_Network_CVPRW_2023_paper.html",
+      "http_status": "200",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023W/EVW/html/Fang_ES3Net_Accurate_and_Efficient_Edge-Based_Self-Supervised_Stereo_Matching_Network_CVPRW_2023_paper.html",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026W/EVW/html/Kim_EdgeVTP_Exploration_of_Latency-efficient_Trajectory_Prediction_for_Edge-based_Embedded_Vision_CVPRW_2026_paper.html",
+      "http_status": "200",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026W/EVW/html/Kim_EdgeVTP_Exploration_of_Latency-efficient_Trajectory_Prediction_for_Edge-based_Embedded_Vision_CVPRW_2026_paper.html",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021W/ERCVAD/papers/Mantowsky_ProAI_An_Efficient_Embedded_AI_Hardware_for_Automotive_Applications_-_ICCVW_2021_paper.pdf",
+      "http_status": "200",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021W/ERCVAD/papers/Mantowsky_ProAI_An_Efficient_Embedded_AI_Hardware_for_Automotive_Applications_-_ICCVW_2021_paper.pdf",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Jiang_VAD_Vectorized_Scene_Representation_for_Efficient_Autonomous_Driving_ICCV_2023_paper.html",
+      "http_status": "200",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Jiang_VAD_Vectorized_Scene_Representation_for_Efficient_Autonomous_Driving_ICCV_2023_paper.html",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Towards_Accurate_and_Efficient_3D_Object_Detection_for_Autonomous_Driving_ICCV_2025_paper.html",
+      "http_status": "200",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Towards_Accurate_and_Efficient_3D_Object_Detection_for_Autonomous_Driving_ICCV_2025_paper.html",
+      "result": "reachable",
+      "curl_exit": 0
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_VLDrive_Vision-Augmented_Lightweight_MLLMs_for_Efficient_Language-grounded_Autonomous_Driving_ICCV_2025_paper.html",
+      "http_status": "200",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_VLDrive_Vision-Augmented_Lightweight_MLLMs_for_Efficient_Language-grounded_Autonomous_Driving_ICCV_2025_paper.html",
       "result": "reachable",
       "curl_exit": 0
     },
@@ -481,21 +628,21 @@
     {
       "url": "https://www.nature.com/articles/s41467-025-62327-3",
       "http_status": "200",
-      "final_url": "https://www.nature.com/articles/s41467-025-62327-3?error=cookies_not_supported&code=9c63a98f-5b39-4cde-927f-b50d2cbab0a3",
+      "final_url": "https://www.nature.com/articles/s41467-025-62327-3?error=cookies_not_supported&code=eb38216b-81bc-414d-bde4-ffab03c3c69d",
       "result": "reachable",
       "curl_exit": 0
     },
     {
       "url": "https://www.nature.com/articles/s41598-026-49690-x",
       "http_status": "200",
-      "final_url": "https://www.nature.com/articles/s41598-026-49690-x?error=cookies_not_supported&code=03095e75-3799-414a-88ac-a43a569c22c0",
+      "final_url": "https://www.nature.com/articles/s41598-026-49690-x?error=cookies_not_supported&code=b66ccf7e-9c50-48f6-924b-2c8c227f0397",
       "result": "reachable",
       "curl_exit": 0
     },
     {
       "url": "https://www.nature.com/articles/s44172-024-00292-3",
       "http_status": "200",
-      "final_url": "https://www.nature.com/articles/s44172-024-00292-3?error=cookies_not_supported&code=fcdf4f50-6491-464d-9f8d-4d6fa0e4a136",
+      "final_url": "https://www.nature.com/articles/s44172-024-00292-3?error=cookies_not_supported&code=cde92aed-7af1-4cf9-9062-d4aeb7ff6331",
       "result": "reachable",
       "curl_exit": 0
     },
