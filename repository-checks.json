@@ -1,0 +1,137 @@
+[
+  {
+    "full_name": "AIROTAU/PointPillarsHailoInnoviz",
+    "html_url": "https://github.com/AIROTAU/PointPillarsHailoInnoviz",
+    "description": null,
+    "created_at": "2024-09-15T20:54:49Z",
+    "pushed_at": "2025-01-08T15:29:32Z",
+    "archived": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "BDEvan5/TrajectoryAidedLearning",
+    "html_url": "https://github.com/BDEvan5/TrajectoryAidedLearning",
+    "description": "Accompanying repo for the paper - High-speed Autonomous Racing using Trajectory-aided Deep Reinforcement Learning",
+    "created_at": "2022-11-17T07:12:42Z",
+    "pushed_at": "2024-01-17T11:18:19Z",
+    "archived": false,
+    "default_branch": "master"
+  },
+  {
+    "full_name": "CSL-KU/DeepPicar-v3",
+    "html_url": "https://github.com/CSL-KU/DeepPicar-v3",
+    "description": null,
+    "created_at": "2022-05-18T16:34:04Z",
+    "pushed_at": "2026-06-17T21:17:48Z",
+    "archived": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "CSL-KU/DeepPicarMicro",
+    "html_url": "https://github.com/CSL-KU/DeepPicarMicro",
+    "description": "CNN-based end-to-end autonomous driving on a tiny MCU (RTCSA'22)",
+    "created_at": "2022-08-09T23:20:24Z",
+    "pushed_at": "2026-02-11T09:03:36Z",
+    "archived": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "CSL-KU/ResAwareWoR",
+    "html_url": "https://github.com/CSL-KU/ResAwareWoR",
+    "description": null,
+    "created_at": "2025-11-10T05:33:22Z",
+    "pushed_at": "2026-03-13T13:52:44Z",
+    "archived": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "DailyL/Sim2Real_autonomous_vehicle",
+    "html_url": "https://github.com/DailyL/Sim2Real_autonomous_vehicle",
+    "description": null,
+    "created_at": "2022-06-09T12:18:55Z",
+    "pushed_at": "2025-01-02T14:23:22Z",
+    "archived": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "ForzaETH/race_stack",
+    "html_url": "https://github.com/ForzaETH/race_stack",
+    "description": "The autonomous racing stack for the ForzaETH team at PBL",
+    "created_at": "2024-02-19T15:07:06Z",
+    "pushed_at": "2026-09-27T20:14:30Z",
+    "archived": false,
+    "default_branch": "ros2-humble"
+  },
+  {
+    "full_name": "JdeRobot/DeepLearningStudio",
+    "html_url": "https://github.com/JdeRobot/DeepLearningStudio",
+    "description": "Collection of Deep Learning algorithms for autonomous control of vehicles on Behavior Metrics Circuits. Contains both PyTorch and Tensorflow implementations.",
+    "created_at": "2021-05-20T10:01:32Z",
+    "pushed_at": "2024-01-15T12:31:16Z",
+    "archived": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "LASFAS/jblambda",
+    "html_url": "https://github.com/LASFAS/jblambda",
+    "description": "Edge\u2011deployed ROS 2 lambdas for smart, event\u2011based data recording in autonomous driving",
+    "created_at": "2026-01-27T17:19:40Z",
+    "pushed_at": "2026-01-27T17:35:17Z",
+    "archived": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "NVIDIA-AI-IOT/jetracer",
+    "html_url": "https://github.com/NVIDIA-AI-IOT/jetracer",
+    "description": "An autonomous AI racecar using NVIDIA Jetson Nano",
+    "created_at": "2019-04-11T20:19:57Z",
+    "pushed_at": "2022-02-08T04:36:18Z",
+    "archived": false,
+    "default_branch": "master"
+  },
+  {
+    "full_name": "Tinker-Twins/AutoDRIVE",
+    "html_url": "https://github.com/Tinker-Twins/AutoDRIVE",
+    "description": "An Integrated Cyber-Physical Ecosystem for Autonomous Driving Research and Education",
+    "created_at": "2021-01-20T17:26:18Z",
+    "pushed_at": "2026-09-22T06:22:33Z",
+    "archived": false,
+    "default_branch": "AutoDRIVE"
+  },
+  {
+    "full_name": "autorope/donkeycar",
+    "html_url": "https://github.com/autorope/donkeycar",
+    "description": "Open source hardware and software platform to build a small scale self driving car.",
+    "created_at": "2016-12-10T06:35:09Z",
+    "pushed_at": "2026-09-19T21:09:06Z",
+    "archived": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "dctian/DeepPiCar",
+    "html_url": "https://github.com/dctian/DeepPiCar",
+    "description": "Deep Learning Autonomous Car based on Raspberry Pi, SunFounder PiCar-V Kit, TensorFlow, and Google's EdgeTPU Co-Processor",
+    "created_at": "2019-04-09T22:47:31Z",
+    "pushed_at": "2025-05-18T08:03:46Z",
+    "archived": false,
+    "default_branch": "master"
+  },
+  {
+    "full_name": "f1tenth/f1tenth_gym",
+    "html_url": "https://github.com/f1tenth/f1tenth_gym",
+    "description": "This is the repository of the F1TENTH Gym environment.",
+    "created_at": "2020-03-16T02:06:13Z",
+    "pushed_at": "2026-09-04T06:00:33Z",
+    "archived": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "mbechtel2/DeepPicar-v2",
+    "html_url": "https://github.com/mbechtel2/DeepPicar-v2",
+    "description": "End-to-end deep learning based autonomous RC car using Raspberry Pi 3.",
+    "created_at": "2018-04-18T13:52:07Z",
+    "pushed_at": "2022-09-15T01:23:24Z",
+    "archived": false,
+    "default_branch": "master"
+  }
+]
